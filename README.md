@@ -27,9 +27,13 @@ Sets up the full environment exactly as intended
 
 # setup config file 
 TWILIO_ACCOUNT_SID = ""
+
 TWILIO_AUTH_TOKEN = "" 
+
 TWILIO_FROM_NUMBER = ""  # your Twilio number
+
 EMERGENCY_CONTACT = ""  # or your local emergency number 
+
 GROQ_API_KEY=
 
 # run fontend
