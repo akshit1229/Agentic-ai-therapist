@@ -4,6 +4,8 @@ Your compassionate AI companion for emotional support, built with care and real-
 
 Equipped with an AI agent architecture, specialist healthcare models (MedGemma), and life-saving tools like emergency calling via Twilio, SafeSpace is designed to support mental well-being — safely and responsibly.
 
+# Demo Video
+youtube : https://youtu.be/uC_l7hj4Lz0
 
 
 🚀 Quick Start
