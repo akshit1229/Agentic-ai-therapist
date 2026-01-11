@@ -34,7 +34,9 @@ TWILIO_FROM_NUMBER = ""  # your Twilio number
 
 EMERGENCY_CONTACT = ""  # or your local emergency number 
 
-GROQ_API_KEY=
+GROQ_API_KEY = ""
+
+GOOGLE_MAPS_API_KEY = "" 
 
 # run fontend
 uv run streamlit run frontend.py
