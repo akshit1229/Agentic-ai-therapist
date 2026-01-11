@@ -1,5 +1,6 @@
 from langchain.agents import tool
 from tools import query_medgemma, call_emergency
+from tools import find_therapists_nearby
 
 @tool
 def ask_mental_health_specialist(query: str) -> str:
@@ -32,12 +33,7 @@ def find_nearby_therapists_by_location(location: str) -> str:
     Returns:
         str: A newline-separated string containing therapist names and contact info.
     """
-    return (
-        f"Here are some therapists near {location}, {location}:\n"
-        "- Dr. Ayesha Kapoor - +1 (555) 123-4567\n"
-        "- Dr. James Patel - +1 (555) 987-6543\n"
-        "- MindCare Counseling Center - +1 (555) 222-3333"
-    )
+    return find_therapists_nearby(location)
 
 
 # Step1: Create an AI Agent & Link to backend
